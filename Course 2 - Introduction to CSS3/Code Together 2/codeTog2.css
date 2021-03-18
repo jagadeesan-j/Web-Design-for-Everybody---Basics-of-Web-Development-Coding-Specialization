@@ -4,9 +4,10 @@ h1{
 }
 body{
 	margin: 2%;
+	background-color: #eeebdd;
 }
 header{
-	background: #444857;
+	background-color: #1b1717;
 	text-align: center;
 	padding-bottom: 5px;
 }
@@ -23,7 +24,23 @@ section{
 	display: inline-block;
 	width: 30%;
 	margin: 1%;
+	background-color: #bbbbbb;
 }
 #foot_logo{
 	width: 45px;
+	background-color: #eeebdd;
+}
+footer{
+	background-color: #1b1717;
+	color: #ffffff;
+}
+a{
+	color: #ffffff;
+}
+a:hover{
+	background-color: #bbbbbb;
+	color: #000000;
+}
+a:active{
+	border: 2px solid #000000;
 }
