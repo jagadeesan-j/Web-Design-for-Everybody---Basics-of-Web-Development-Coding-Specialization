@@ -68,3 +68,50 @@ p{
 	font-size: 120%;
 	text-align: justify;
 }
+table{
+	font-family: Helvetica, sans-serif;
+	align-self: center;
+	margin: 0 auto;
+	padding: 2%;
+	width: 60%
+}
+th{
+	padding: 2%;
+	margin: 1%;
+	border-radius: 10px 10px 0% 0%;
+	border-bottom-color: #1c1427;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	font-size: 120%;
+	background: -webkit-linear-gradient(#1e6f5c 0%, #9ede73 100%);
+	background: -moz-linear-gradient(top, #1e6f5c 0%, #9ede73 100%);
+	background: -o-linear-gradient(#1e6f5c 0%, #9ede73 100%);
+	background: linear-gradient(#1e6f5c 0%, #9ede73 100%);
+	font-variant: small-caps;
+	color: #ffffff;
+}
+table th:first-child{
+	text-align: left;
+}
+tr{
+	font-weight: bold;
+	padding: 1%;
+}
+tr td{
+	text-align: center;
+	opacity: 0.8;
+	font-size: 90%;
+}
+tr td:first-child{
+	text-align: left;
+}
+td{
+	background-color: #9ede7360;
+	padding: 1%;
+	transition: 0.3s background-color opacity;
+	border-radius: 2px;
+}
+td:hover{
+	background-color: #96bb7c;
+	opacity: 1;
+}
