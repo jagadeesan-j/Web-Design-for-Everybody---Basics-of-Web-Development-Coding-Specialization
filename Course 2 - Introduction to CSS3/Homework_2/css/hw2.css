@@ -52,7 +52,7 @@ body{
 	border: solid 2px #000000;
 	float: left;
 	clear: both;
-	margin: 4% auto;
+	margin: 0 auto;
 	display: block;
 	vertical-align: middle;
 }
